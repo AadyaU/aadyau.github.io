@@ -99,15 +99,21 @@ p {
 }
 
 .button {
-  background-color: #ff7b00;
-  border: none;
+  background-color: black;
+  border: 2px solid white; /* Added a border width to make it visible */
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 13px;
+  margin-top: 10px;
+  /*transition: 0.3s;  Smooth transition effect */
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
 }
 
 .intro{

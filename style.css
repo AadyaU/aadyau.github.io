@@ -1,0 +1,157 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #000000;
+  text-align: left;
+  font-family: monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-family: 'Space Mono', monospace;
+}
+
+p {
+  color: white;
+}
+
+/* STYLE IMAGES */
+
+#moon {
+  max-height: 200px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#gorilla {
+  max-height: 270px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-top:15px;
+}
+
+#neha {
+  max-height: 250px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+#emoji {
+  font-size: 5em;
+}
+
+#apple {
+  max-height: 250px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-top: 17px;
+}
+
+#hp {
+  max-height: 250px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-top: 17px;
+}
+
+#hpq {
+  max-height: 250px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-top: 17px;
+}
+
+#linkedin {
+  background-color: #001fb8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 13px;
+  margin-right: 15px;
+}
+
+#insta {
+  background-color: #ff00bb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.button {
+  background-color: #ff7b00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 13px;
+}
+
+.intro{
+  display: inline-flex;
+}
+
+.item1{
+  display: block;
+}
+
+.item2 {
+  display: block;
+}
+
+.item3 {
+  display: block;
+  margin-left: 15px
+}
+
+.list{
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: 
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
